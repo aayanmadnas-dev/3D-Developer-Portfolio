@@ -1,0 +1,13 @@
+/* App-level layout overrides */
+.portfolio-app-root {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#main-content {
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
