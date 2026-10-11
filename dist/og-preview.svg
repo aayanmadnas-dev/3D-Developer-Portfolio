@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#1e1b4b" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#090d16" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#030712" />
+    </radialGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgGlow)"/>
+  <circle cx="950" cy="300" r="220" fill="none" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="6 8" opacity="0.4"/>
+  <circle cx="950" cy="300" r="160" fill="none" stroke="#00f0ff" stroke-width="2" opacity="0.6"/>
+  <circle cx="950" cy="300" r="100" fill="#00f0ff" fill-opacity="0.1" stroke="#38bdf8" stroke-width="1"/>
+  
+  <text x="120" y="240" font-family="'Space Grotesk', system-ui, sans-serif" font-size="28" font-weight="600" fill="#00f0ff" letter-spacing="4">ENGINEERING PORTFOLIO</text>
+  <text x="120" y="320" font-family="'Space Grotesk', system-ui, sans-serif" font-size="72" font-weight="800" fill="#ffffff">Aayan Madnas</text>
+  <text x="120" y="380" font-family="'Inter', system-ui, sans-serif" font-size="32" font-weight="500" fill="url(#textGrad)">Software Engineering Student &amp; Web Developer</text>
+  <text x="120" y="440" font-family="'Inter', system-ui, sans-serif" font-size="22" fill="#94a3b8">Chameli Devi Group of Institutions (2029) • Indore, MP, India</text>
+  <text x="120" y="520" font-family="'JetBrains Mono', monospace" font-size="20" fill="#64748b">C++ | Python | JavaScript | Three.js | Responsive Web Dev</text>
+</svg>
